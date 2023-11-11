@@ -1,0 +1,457 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  line-height: 1.6;
+  background: #18192c;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.logo {
+  width: 150px;
+  height: 75px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* U   T   I   L */
+
+.container {
+  /* margin: auto; */
+  overflow: hidden;
+}
+
+.dark {
+  color: #f4f4f4;
+  background-color: #333;
+  /* transition: all 0.3s; */
+}
+
+.light {
+  color: #333;
+  background-color: #f4f4f4;
+  /* transition: all 0.3s; */
+}
+
+.light:hover,
+.dark:hover {
+  color: #f4f4f4;
+  background-color: #f11045;
+  /* transition: all 0.3s; */
+}
+
+.btn-main {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  /* transition: all 0.3s; */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.primary-color {
+  color: #f11045;
+}
+
+.light-color {
+  color: #f4f4f4;
+}
+
+.heavy {
+  font-weight: bold;
+}
+
+.heavier {
+  font-weight: bolder;
+}
+
+.current {
+  color: #f11045;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.mbot-1 {
+  margin-bottom: 10px;
+}
+
+.mbot-2 {
+  margin-bottom: 20px;
+}
+
+.mbot-3 {
+  margin-bottom: 30px;
+}
+
+.mbot-4 {
+  margin-bottom: 40px;
+}
+
+.mbot-5 {
+  margin-bottom: 50px;
+}
+
+.mbot-6 {
+  margin-bottom: 60px;
+}
+
+.mbot-7 {
+  margin-bottom: 70px;
+}
+
+/*                                            */
+/*                H E A D E R                 */
+/*                                            */
+
+/*  N  A   V   I   G   A   T   I   O   N  */
+
+#main-header {
+  background: url("./img/banner-case.jpg") no-repeat center center/cover;
+  height: 100vh;
+  border-bottom: 3px solid #f11045;
+}
+
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-nav .logo {
+  margin: 10px;
+}
+
+#main-nav .nav-list {
+  display: flex;
+}
+
+#main-nav .nav-button {
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+
+.nav-list .list-item {
+  padding: 0 20px;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.list-item a {
+  color: #f4f4f4;
+  /* transition: 0.3s all; */
+}
+
+.list-item a:hover {
+  color: #f11045;
+  /* transition: all 0.3s; */
+}
+
+/* B  A    N    N    E    R */
+
+.header-banner {
+  background: url("./img/banner-case.jpg") no-repeat center center/cover;
+  opacity: 0.5;
+  /* width: 100vw; */
+  height: 700px;
+  position: relative;
+}
+
+.showcase {
+  font-size: 2.5rem;
+  position: absolute;
+  top: 27%;
+  left: 10%;
+}
+
+.showcase .showcase-text-1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: light;
+  font-size: 4rem;
+  line-height: 1.2;
+}
+
+.showcase .showcase-text-2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: light;
+}
+
+.showcase .showcase-text-punct {
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.showcase .btn-main {
+  width: 270px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+/*                                            */
+/*                S E C T I O N S             */
+/*                                            */
+
+/* H  O   M   E  -   A */
+
+#home-a .upper-specials {
+  background-color: #18192c;
+  margin: 50px 0;
+}
+
+.upper-specials h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #f4f4f4;
+  margin-top: 40px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.upper-specials .upper-specials-list {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  /* transition: all 0.5s; */
+}
+
+.upper-specials-list .upper-specials-list-item {
+  font-family: "Dosis", sans-serif;
+  font-size: 1.6rem;
+  margin: 40px;
+  text-align: center;
+}
+
+.upper-specials-list-item a {
+  color: #f4f4f4;
+  background-color: #333;
+  padding: 1.2rem 1.8rem;
+  border: 1px solid #f11045;
+  border-radius: 50%;
+  /* transition: all 0.3s; */
+}
+
+.upper-specials-list-item a:hover {
+  background-color: #f11045;
+  color: #f4f4f4;
+  /* transition: all 0.3s; */
+}
+
+.upper-specials-list-item:first-child a {
+  padding: 1.2rem 2.125rem;
+}
+
+.upper-specials-list-item:nth-child(2) a {
+  padding: 1.2rem 2rem;
+}
+
+/* S  P   E   C   I   A   L   S     MAIN */
+
+.main-specials {
+  display: flex;
+  border-bottom: 2px solid #f11045;
+}
+
+.main-specials .specials-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.specials-item .specials-item-container {
+  flex: 1;
+}
+
+.image-container {
+  display: flex;
+  margin-right: 20px;
+}
+
+.specials-item .specials-item-info {
+  background-color: rgba(15, 15, 27, 0.8);
+  padding: 45px;
+  height: 100%;
+  border-top: 1px solid #f11045;
+  border-right: 1px solid #f11045;
+  border-bottom: 1px solid #f11045;
+  border-left: none;
+  border-radius: 7px;
+}
+
+@media screen and (min-width: 1125px) {
+  .showcase {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .image-container {
+    display: none;
+  }
+  .specials-item .specials-item-info {
+    border-left: 1px solid #f11045;
+  }
+}
+
+.action-button-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.specials-item .specials-image {
+  justify-content: flex-start;
+  height: 100%;
+  max-height: 700px;
+  border-top: 1px solid #f11045;
+  border-left: 1px solid #f11045;
+  border-bottom: 1px solid #f11045;
+  border-radius: 5px;
+}
+
+.specials-item-container.image-container {
+  flex: 0.8;
+}
+
+.specials-item-info h2 {
+  font-family: "Dosis", sans-serif;
+  font-size: 5rem;
+  color: #f4f4f4;
+  line-height: 1.1;
+}
+
+.specials-item-info h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  margin-left: 16px;
+  letter-spacing: 10px;
+  color: #f4f4f4;
+}
+
+.specials-item-info .price-tag {
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  color: #d03956;
+}
+
+.specials-item-info p {
+  font-family: "Montserrat", sans-serif;
+  color: #f4f4f4;
+  margin: 30px 0;
+  line-height: 2;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.specials-item-info .btn-specials {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+/*  H  O   M   E    B   */
+
+#home-b {
+  background-color: #262846;
+  opacity: 1;
+  background-image: radial-gradient(#f1104450 2px, transparent 2px),
+    radial-gradient(#f1104477 2px, #262846 2px);
+  background-size: 60px 60px;
+  background-position: 0 0, 40px 40px;
+  border-bottom: 2px solid #d03956;
+}
+
+#home-b h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.3rem;
+  text-align: center;
+  margin: 3rem 0;
+  font-weight: bolder;
+  color: #f4f4f4;
+}
+
+#home-b h2 span {
+  padding: 5px 0;
+  border-bottom: 2px solid #f11045;
+}
+
+#home-b .services {
+  display: flex;
+  margin: 4rem 0;
+  color: #f4f4f4;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#home-b .services i {
+  font-size: 3rem;
+  padding: 15px;
+  margin: 10px 0;
+  color: #f11045;
+}
+
+#home-b .services h3 {
+  font-family: "Dosis", sans-serif;
+  font-size: 2.2rem;
+}
+
+.services .service {
+  display: flex;
+  flex: 0 0 400px;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/*  H  O   M   E    C  */
+
+#home-c {
+  background: rgb(255, 255, 255);
+}
+
+#home-c .company-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+
+.company-logos .company-logos-block {
+  display: flex;
+}
+
+.company-logos .company-logos-block img {
+  height: 150px;
+  width: 210px;
+}
+
+/* !ASK MARCO ABOUT THE SPECIALS ITEM FLEX PROPERTY SO ITS RESPONSIVE
+  ALSO ASK ABOUT THE COMPANY LOGO FLEX ALIGNMENT OR GRID! */
